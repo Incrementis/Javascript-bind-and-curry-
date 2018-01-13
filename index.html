@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<title>Bind and Curry</title>
+		<meta charset = "UTF-8">
+	
+	</head>
+	
+	
+	<!--
+		NOTE:
+		===============================================================================================
+		
+		Because of simplicity & demonstration purposes, the "style" attribute is used within html tags.
+		Nevertheless it is recommended to use CSS for styling.
+		
+		'<option value="" disabled selected>' simulates a placeholder for the drop list
+		
+		In '<body>' the 'style="text-align:center;"' 
+		centers similar like the tag '<center>' which was used in the previous mini-projects.
+		
+		Some tag attributes are put into new lines, to keep them more visible.
+		
+		===============================================================================================
+	-->
+	
+	
+	<body style="text-align:center;">
+	
+		<section>
+		
+			<h2>Embeded Youtube Videos</h2>
+			
+			<br>
+			
+			<div>
+				
+				<button id="random" 
+						style="border:none;background-color:lightblue;height:25px;" 
+						onclick="RANDOM();">
+				
+					RANDOM(Good Luck!)
+					
+				</button>	
+				
+				
+				<br>
+				<br>
+				<input type="text" class="user-input" placeholder="Please insert a video ID">	
+				<input type="text" class="user-input" placeholder="Please insert a video ID">	
+				<input type="text" class="user-input" placeholder="Please insert a video ID">	
+				
+				
+				<br>
+				<br>
+				<button id="go" 
+						style="border:none; background-color:green; height:25px;" 
+						onclick="GO()">
+				
+					GO
+					
+				</button>
+				
+			</div>	
+				
+			<br>
+			
+			<div>
+			
+				<iframe width="300px" height="150px" class="video">
+				
+					Your browser does not support iframe!
+				
+				</iframe>
+				
+				<iframe width="300px" height="150px" class="video">
+				
+					Your browser does not support iframe!
+				
+				</iframe>
+				
+				<iframe width="300px" height="150px" class="video">
+				
+					Your browser does not support iframe!
+				
+				</iframe>
+				
+			</div>			
+		
+		</section>
+	
+		
+	
+	<section>
+	
+		<hr width="50%">
+		
+		<br>
+		<br>
+		For more explanation please visit - 
+		<a href = "https://github.com/Incrementis/Javascript-bind-and-curry-/wiki"> 
+		Bind and curry Wiki</a>
+		
+	</section>
+		
+
+	</body>
+
+	
+	<script language="javascript" type="text/javascript" src="curry.js"></script> 
+
+</html>
