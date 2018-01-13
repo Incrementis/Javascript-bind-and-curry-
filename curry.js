@@ -27,12 +27,12 @@ function IDs(protocol, domain, path,  id, index)
 //Purpose: Generates Random IDs
 function generateID()
 {
-	var eleven 		= 0;
+	var eleven 	= 0;
 	
 	//Contains 26x3 characters
 	var signs186	= [	"ABCDEFGHIJKLMNOPQRSTUVWXYZ", 
-						"abcdefghijklmnopqrstuvwxyz",
-						"-_0123456789-_0123456789-_"];
+				"abcdefghijklmnopqrstuvwxyz",
+				"-_0123456789-_0123456789-_"];
 						
 	
 	//Youtube`s ID contains 11 characters
@@ -45,7 +45,7 @@ function generateID()
 		var position = Math.floor( Math.random()* 26 );
 		
 		
-		//Preventing that the first value always gets "0"
+		//Preventing that the first value always is "0"
 		if(num === 0)
 		{
 			
@@ -95,7 +95,7 @@ function GO()
 	
 	
 	var IdList 	= [];	//List with all user given youtube IDs	
-	var	sources = [];	//List with url adresses which includes the IDs
+	var sources 	= [];	//List with url adresses which includes the IDs
 	
 	
 	
